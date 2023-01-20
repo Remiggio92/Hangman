@@ -1,5 +1,5 @@
-from hangman_art import logo, stages
-from hangman_words import word_list
+from hangman_pictures import logo, stages
+from hangman_dictionary import word_list
 import random
 
 chosen_word = random.choice(word_list)
